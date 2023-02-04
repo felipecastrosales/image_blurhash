@@ -20,11 +20,12 @@ packages:
   blurhash_dart:
     dependency: "direct main"
     description:
-      name: blurhash_dart
-      sha256: "3964d40904eed652cffb2bee8254df2cbb84d05719023e0c192d50963508a9cf"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.0"
+      path: "."
+      ref: fix-multiply-basis-func
+      resolved-ref: "1b92caf1ed4fb2a80d5254c3d835f326329115ce"
+      url: "git@github.com:justacid/blurhash-dart.git"
+    source: git
+    version: "1.2.1"
   boolean_selector:
     dependency: transitive
     description:

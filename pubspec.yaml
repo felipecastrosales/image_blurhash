@@ -8,7 +8,11 @@ environment:
 
 dependencies:
   # blurhash_dart: ^1.1.0
-  blurhash_dart: ^1.2.0
+  blurhash_dart:
+    # path: ../blurhash-dart
+    git: 
+      url: git@github.com:justacid/blurhash-dart.git
+      ref: fix-multiply-basis-func
   cupertino_icons: ^1.0.5
   flutter:
     sdk: flutter
